@@ -59,6 +59,9 @@ class Person:
         return self._name, self._contact_number, self._email_id
 
     def update_email(self, new_email):  # Encapsulation - wrapping data and methods that work on data within one unit
+        """
+        Method to update existing email ID
+        """
         try:
             if '.com' not in new_email or '@' not in new_email:
                 raise InvalidEmailException
@@ -160,7 +163,9 @@ class Student(Person):  # inheritance Example
 
 
 class SupportPerson(Person):
-
+    """
+    Class to handle details regarding the support person working in iNeuron
+    """
     __relation = 'Support'
     __available_start_time = time(10, 00, 00)   # private variable
     __available_end_time = time(20, 00, 00)

@@ -1,0 +1,16 @@
+[INFO] : 2022-07-11 02:51:40,551 : root : THIS IS THE BEGINING OF THE APP
+[ERROR] : 2022-07-11 02:51:40,552 : root : Invalid email found
+[ERROR] : 2022-07-11 02:51:40,552 : root : Value of age must be integer
+[INFO] : 2022-07-11 02:51:40,552 : root : ML course successfully added to enrollment list
+[INFO] : 2022-07-11 02:51:40,552 : root : FSDS course successfully added to enrollment list
+[WARNING] : 2022-07-11 02:51:40,553 : root : Already enrolled for FSDS course
+[INFO] : 2022-07-11 02:51:40,553 : root : C++ course successfully added to enrollment list
+[INFO] : 2022-07-11 02:51:40,553 : root : C++ course removed from enrollment list
+[INFO] : 2022-07-11 02:51:40,553 : root : 10 Progress for course ML is updated
+[INFO] : 2022-07-11 02:51:40,553 : root : 70 Progress for course FSDS is updated
+[INFO] : 2022-07-11 02:51:40,553 : root : Javascript course successfully added to enrollment list
+[ERROR] : 2022-07-11 02:51:40,554 : root : Percentage value must be numeric
+[INFO] : 2022-07-11 02:51:40,554 : root : allowed_for_interview False
+[INFO] : 2022-07-11 02:51:40,554 : root : javascript course added to Hitesh can teach list
+[WARNING] : 2022-07-11 02:51:40,554 : root : Hitesh already can teach javascript
+[INFO] : 2022-07-11 02:51:40,554 : root : Python course added to Hitesh can teach list
