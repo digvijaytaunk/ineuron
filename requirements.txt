@@ -1,0 +1,25 @@
+# For Input validation
+pyinputplus
+
+# Automatic visualization of dataset, similar to pandas-profiling
+Autoviz
+
+# Need to read excel file
+openpyxl
+
+# PDF format file reader
+PyPDF2
+
+# Word Document file reader
+python-docx
+
+# package to assist csv upload to MySql
+# https://csvkit.readthedocs.io/en/latest/
+csvkit
+
+mysql-connector-python
+notebook
+pymongo
+pymongo[srv]
+pandas-profiling==2.13.0
+Jinja2==3.0.3
