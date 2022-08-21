@@ -17,9 +17,16 @@ python-docx
 # https://csvkit.readthedocs.io/en/latest/
 csvkit
 
-mysql-connector-python
 notebook
-pymongo
-pymongo[srv]
 pandas-profiling==2.13.0
 Jinja2==3.0.3
+flask
+
+# Database
+pymongo
+pymongo[srv]
+mysql-connector-python
+redis
+
+# ploting library
+cufflinks
