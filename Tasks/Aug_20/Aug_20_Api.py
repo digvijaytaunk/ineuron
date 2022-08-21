@@ -33,6 +33,7 @@ def _db_insert_sql(data):
         price = data['price']
         query = f'INSERT INTO {database}.{table} (product_name, price) Values ("{prod}", {price})'
         cursor.execute(query)
+        conn.commit()
     except Exception as e:
         return {'Status': 'Fail', 'msg': e}
 
@@ -45,6 +46,7 @@ def _db_update_sql(data):
         price = data['price']
         query = f'UPDATE {database}.{table} SET product_name = "{prod}", price = {price}'
         cursor.execute(query)
+        conn.commit()
     except Exception as e:
         return {'Status': 'Fail', 'msg': e}
 
@@ -55,6 +57,7 @@ def _db_delete_sql(prod):
     try:
         query = f'DELETE FROM {database}.{table} WHERE product_name = "{prod}"'
         cursor.execute(query)
+        conn.commit()
     except Exception as e:
         return {'Status': 'Fail', 'msg': e}
 
