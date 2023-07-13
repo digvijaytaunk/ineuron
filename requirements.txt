@@ -30,3 +30,8 @@ redis
 
 # ploting library
 cufflinks
+
+# Time series
+pmdarima
+yfinance
+nsepy # my installation for India data
