@@ -36,3 +36,8 @@ opencv-python
 
 # Extracting text from Image (OCR)
 pytesseract
+
+# Time series
+pmdarima
+yfinance
+nsepy # my installation for India data
