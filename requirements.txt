@@ -30,3 +30,9 @@ redis
 
 # ploting library
 cufflinks
+
+# cnn/image processing
+opencv-python
+
+# Extracting text from Image (OCR)
+pytesseract
